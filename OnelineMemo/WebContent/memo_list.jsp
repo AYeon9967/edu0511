@@ -33,9 +33,11 @@
 	
 	con.close();
 	pstmt.close();
-	con.close();
-	out.println("DB연결 성공");
 %>
+
+<form method="post" action="memo_form.html">
+<input type="submit" value="작성"></input>
+</form>
 
 </body>
 </html>

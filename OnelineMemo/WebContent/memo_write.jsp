@@ -28,7 +28,7 @@
 	pstmt.executeUpdate();
 	pstmt.close();	
 	con.close();
-	out.println("DB연결 성공");
+	out.println("메모 작성 성공");
 %>
 
 </body>
